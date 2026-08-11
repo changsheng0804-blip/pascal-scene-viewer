@@ -1,0 +1,154 @@
+{
+  "publicationDecision": "user-confirmed-public",
+  "notice": "Furniture GLB files were explicitly approved by the user for public GitHub Pages publication. Per-asset upstream license metadata was not present in the Pascal scene/catalog; this record is a publication permission acknowledgement, not an upstream license claim.",
+  "softwareLicenses": {
+    "three.js": "MIT",
+    "draco-decoder": "Apache-2.0"
+  },
+  "assets": [
+    {
+      "assetId": "sofa",
+      "source": "/items/sofa/model.glb",
+      "filename": "f40aa74dee9eaf82b0a01fb6b7115a70e6372f155c5afc9e880927f481abc0c3.glb",
+      "sha256": "f40aa74dee9eaf82b0a01fb6b7115a70e6372f155c5afc9e880927f481abc0c3",
+      "bytes": 7908,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "livingroom-chair",
+      "source": "/items/livingroom-chair/model.glb",
+      "filename": "00a12e491a4a5e0fe0c24a54bcbac8596111b2b7d304d58fe6dd7622e8b57c65.glb",
+      "sha256": "00a12e491a4a5e0fe0c24a54bcbac8596111b2b7d304d58fe6dd7622e8b57c65",
+      "bytes": 5924,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "tv-stand",
+      "source": "/items/tv-stand/model.glb",
+      "filename": "4703963652959cd707aeba305774cfc2b1b593fa115b7e19ccf847891a04a017.glb",
+      "sha256": "4703963652959cd707aeba305774cfc2b1b593fa115b7e19ccf847891a04a017",
+      "bytes": 1664,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "kitchen-counter",
+      "source": "/items/kitchen-counter/model.glb",
+      "filename": "95699cf517db7f769ee0bda356ee4d975ba321fbc87d7e4a63aed59f0c900e4f.glb",
+      "sha256": "95699cf517db7f769ee0bda356ee4d975ba321fbc87d7e4a63aed59f0c900e4f",
+      "bytes": 2580,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "fridge",
+      "source": "/items/fridge/model.glb",
+      "filename": "340890d26bcf43d1bed391a1d413c513a9a40a057861b17867811419cc4cd741.glb",
+      "sha256": "340890d26bcf43d1bed391a1d413c513a9a40a057861b17867811419cc4cd741",
+      "bytes": 5544,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "dining-chair",
+      "source": "/items/dining-chair/model.glb",
+      "filename": "fea8f3c14fdccb8beae9101d8e689f0a17f67d84fbfe1ffabf133cee2ffe5c5b.glb",
+      "sha256": "fea8f3c14fdccb8beae9101d8e689f0a17f67d84fbfe1ffabf133cee2ffe5c5b",
+      "bytes": 5176,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "coat-rack",
+      "source": "/items/coat-rack/model.glb",
+      "filename": "f7ede0a869664b66872aa6bc13998e94b22b464c22d7aa563a7c30feaf65087d.glb",
+      "sha256": "f7ede0a869664b66872aa6bc13998e94b22b464c22d7aa563a7c30feaf65087d",
+      "bytes": 4120,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "toilet",
+      "source": "/items/toilet/model.glb",
+      "filename": "ae0cc0170797dd8026945b4edd08511e6dc2af005df02384b5b277c9bbc6ca94.glb",
+      "sha256": "ae0cc0170797dd8026945b4edd08511e6dc2af005df02384b5b277c9bbc6ca94",
+      "bytes": 4192,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "bedside-table",
+      "source": "/items/bedside-table/model.glb",
+      "filename": "ae287c86595a3751f6259f5d8c440af7affded0171a82d43d393cef825f15c76.glb",
+      "sha256": "ae287c86595a3751f6259f5d8c440af7affded0171a82d43d393cef825f15c76",
+      "bytes": 4524,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "dresser",
+      "source": "/items/dresser/model.glb",
+      "filename": "6e773cb510e0a808f0fb09c449184ab69011576f96c8a67bcb8f0186f079c34f.glb",
+      "sha256": "6e773cb510e0a808f0fb09c449184ab69011576f96c8a67bcb8f0186f079c34f",
+      "bytes": 4348,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "double-bed",
+      "source": "/items/double-bed/model.glb",
+      "filename": "999354f9c78220b5d85b17417131d111a86431ecb6ec1d7cb5ced18386396b64.glb",
+      "sha256": "999354f9c78220b5d85b17417131d111a86431ecb6ec1d7cb5ced18386396b64",
+      "bytes": 22324,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "closet",
+      "source": "/items/closet/model.glb",
+      "filename": "d690f77da3591ab289e18fbcec48092495c5b6b2f4ad5abfc4ea3bbbc6593658.glb",
+      "sha256": "d690f77da3591ab289e18fbcec48092495c5b6b2f4ad5abfc4ea3bbbc6593658",
+      "bytes": 1784,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "dining-table",
+      "source": "/items/dining-table/model.glb",
+      "filename": "92a54b7607e726d8d8d403dac996cad1220669fbbe734bb4087ef8e2aa7af417.glb",
+      "sha256": "92a54b7607e726d8d8d403dac996cad1220669fbbe734bb4087ef8e2aa7af417",
+      "bytes": 3424,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "stove",
+      "source": "/items/stove/model.glb",
+      "filename": "633f58047c9da1f0ef12b3706f09411471725ec7d1a790f562f89f8945fac0c8.glb",
+      "sha256": "633f58047c9da1f0ef12b3706f09411471725ec7d1a790f562f89f8945fac0c8",
+      "bytes": 10668,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "bathroom-sink",
+      "source": "/items/bathroom-sink/model.glb",
+      "filename": "36e4efaffaba977eeea612066e613ee4c274bfa89753dbd1a09187afbb8982e5.glb",
+      "sha256": "36e4efaffaba977eeea612066e613ee4c274bfa89753dbd1a09187afbb8982e5",
+      "bytes": 34652,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    },
+    {
+      "assetId": "shower-square",
+      "source": "/items/shower-square/model.glb",
+      "filename": "185266da0575005d63e451ec2a130494966395504cc5a357352bd717c16358d1.glb",
+      "sha256": "185266da0575005d63e451ec2a130494966395504cc5a357352bd717c16358d1",
+      "bytes": 12608,
+      "upstreamLicense": "unknown",
+      "publicationPermission": "user-confirmed"
+    }
+  ]
+}

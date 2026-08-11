@@ -1,0 +1,20 @@
+{
+  "name": "pascal-scene-viewer",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/build-pages.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "check:content": "node scripts/check-content.mjs",
+    "check:provenance": "node scripts/check-provenance.mjs",
+    "test": "npm run check:content && npm run check:provenance"
+  },
+  "dependencies": {
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.12"
+  }
+}

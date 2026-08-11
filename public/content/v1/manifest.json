@@ -1,0 +1,144 @@
+{
+  "viewerVersion": "v1",
+  "sceneId": "348aaad6e1f6",
+  "sceneName": "单户两层住宅-合理布局-v1",
+  "sourceRevision": 30,
+  "restoredApiVersion": 1,
+  "sourceGraphHash": "99f8f665c55fe3803bcd122c4a83af140da093160e0f9e875eeb3ac948e3df11",
+  "publishedGraphHash": "b607b4771084ab99c3ad3743cb0a9323c57a4ea3f0fbcbe48d8c18b3bbb862dd",
+  "nodeCount": 80,
+  "rootNodeIds": [
+    "site_lyzl0bemmyytw2ym"
+  ],
+  "typeCounts": {
+    "site": 1,
+    "building": 1,
+    "level": 3,
+    "wall": 16,
+    "slab": 2,
+    "ceiling": 2,
+    "zone": 10,
+    "door": 8,
+    "window": 9,
+    "stair": 1,
+    "stair-segment": 1,
+    "item": 24,
+    "roof": 1,
+    "roof-segment": 1
+  },
+  "assets": [
+    {
+      "assetId": "sofa",
+      "source": "/items/sofa/model.glb",
+      "filename": "f40aa74dee9eaf82b0a01fb6b7115a70e6372f155c5afc9e880927f481abc0c3.glb",
+      "bytes": 7908,
+      "sha256": "f40aa74dee9eaf82b0a01fb6b7115a70e6372f155c5afc9e880927f481abc0c3"
+    },
+    {
+      "assetId": "livingroom-chair",
+      "source": "/items/livingroom-chair/model.glb",
+      "filename": "00a12e491a4a5e0fe0c24a54bcbac8596111b2b7d304d58fe6dd7622e8b57c65.glb",
+      "bytes": 5924,
+      "sha256": "00a12e491a4a5e0fe0c24a54bcbac8596111b2b7d304d58fe6dd7622e8b57c65"
+    },
+    {
+      "assetId": "tv-stand",
+      "source": "/items/tv-stand/model.glb",
+      "filename": "4703963652959cd707aeba305774cfc2b1b593fa115b7e19ccf847891a04a017.glb",
+      "bytes": 1664,
+      "sha256": "4703963652959cd707aeba305774cfc2b1b593fa115b7e19ccf847891a04a017"
+    },
+    {
+      "assetId": "kitchen-counter",
+      "source": "/items/kitchen-counter/model.glb",
+      "filename": "95699cf517db7f769ee0bda356ee4d975ba321fbc87d7e4a63aed59f0c900e4f.glb",
+      "bytes": 2580,
+      "sha256": "95699cf517db7f769ee0bda356ee4d975ba321fbc87d7e4a63aed59f0c900e4f"
+    },
+    {
+      "assetId": "fridge",
+      "source": "/items/fridge/model.glb",
+      "filename": "340890d26bcf43d1bed391a1d413c513a9a40a057861b17867811419cc4cd741.glb",
+      "bytes": 5544,
+      "sha256": "340890d26bcf43d1bed391a1d413c513a9a40a057861b17867811419cc4cd741"
+    },
+    {
+      "assetId": "dining-chair",
+      "source": "/items/dining-chair/model.glb",
+      "filename": "fea8f3c14fdccb8beae9101d8e689f0a17f67d84fbfe1ffabf133cee2ffe5c5b.glb",
+      "bytes": 5176,
+      "sha256": "fea8f3c14fdccb8beae9101d8e689f0a17f67d84fbfe1ffabf133cee2ffe5c5b"
+    },
+    {
+      "assetId": "coat-rack",
+      "source": "/items/coat-rack/model.glb",
+      "filename": "f7ede0a869664b66872aa6bc13998e94b22b464c22d7aa563a7c30feaf65087d.glb",
+      "bytes": 4120,
+      "sha256": "f7ede0a869664b66872aa6bc13998e94b22b464c22d7aa563a7c30feaf65087d"
+    },
+    {
+      "assetId": "toilet",
+      "source": "/items/toilet/model.glb",
+      "filename": "ae0cc0170797dd8026945b4edd08511e6dc2af005df02384b5b277c9bbc6ca94.glb",
+      "bytes": 4192,
+      "sha256": "ae0cc0170797dd8026945b4edd08511e6dc2af005df02384b5b277c9bbc6ca94"
+    },
+    {
+      "assetId": "bedside-table",
+      "source": "/items/bedside-table/model.glb",
+      "filename": "ae287c86595a3751f6259f5d8c440af7affded0171a82d43d393cef825f15c76.glb",
+      "bytes": 4524,
+      "sha256": "ae287c86595a3751f6259f5d8c440af7affded0171a82d43d393cef825f15c76"
+    },
+    {
+      "assetId": "dresser",
+      "source": "/items/dresser/model.glb",
+      "filename": "6e773cb510e0a808f0fb09c449184ab69011576f96c8a67bcb8f0186f079c34f.glb",
+      "bytes": 4348,
+      "sha256": "6e773cb510e0a808f0fb09c449184ab69011576f96c8a67bcb8f0186f079c34f"
+    },
+    {
+      "assetId": "double-bed",
+      "source": "/items/double-bed/model.glb",
+      "filename": "999354f9c78220b5d85b17417131d111a86431ecb6ec1d7cb5ced18386396b64.glb",
+      "bytes": 22324,
+      "sha256": "999354f9c78220b5d85b17417131d111a86431ecb6ec1d7cb5ced18386396b64"
+    },
+    {
+      "assetId": "closet",
+      "source": "/items/closet/model.glb",
+      "filename": "d690f77da3591ab289e18fbcec48092495c5b6b2f4ad5abfc4ea3bbbc6593658.glb",
+      "bytes": 1784,
+      "sha256": "d690f77da3591ab289e18fbcec48092495c5b6b2f4ad5abfc4ea3bbbc6593658"
+    },
+    {
+      "assetId": "dining-table",
+      "source": "/items/dining-table/model.glb",
+      "filename": "92a54b7607e726d8d8d403dac996cad1220669fbbe734bb4087ef8e2aa7af417.glb",
+      "bytes": 3424,
+      "sha256": "92a54b7607e726d8d8d403dac996cad1220669fbbe734bb4087ef8e2aa7af417"
+    },
+    {
+      "assetId": "stove",
+      "source": "/items/stove/model.glb",
+      "filename": "633f58047c9da1f0ef12b3706f09411471725ec7d1a790f562f89f8945fac0c8.glb",
+      "bytes": 10668,
+      "sha256": "633f58047c9da1f0ef12b3706f09411471725ec7d1a790f562f89f8945fac0c8"
+    },
+    {
+      "assetId": "bathroom-sink",
+      "source": "/items/bathroom-sink/model.glb",
+      "filename": "36e4efaffaba977eeea612066e613ee4c274bfa89753dbd1a09187afbb8982e5.glb",
+      "bytes": 34652,
+      "sha256": "36e4efaffaba977eeea612066e613ee4c274bfa89753dbd1a09187afbb8982e5"
+    },
+    {
+      "assetId": "shower-square",
+      "source": "/items/shower-square/model.glb",
+      "filename": "185266da0575005d63e451ec2a130494966395504cc5a357352bd717c16358d1.glb",
+      "bytes": 12608,
+      "sha256": "185266da0575005d63e451ec2a130494966395504cc5a357352bd717c16358d1"
+    }
+  ],
+  "readOnly": true
+}

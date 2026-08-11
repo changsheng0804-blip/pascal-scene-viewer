@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b1020" />
+    <meta name="description" content="Pascal 单户两层住宅只读 3D 展示页" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect x='2' y='7' width='12' height='7' fill='%2380a9ff'/><polygon points='2,7 8,2 14,7' fill='%23566b9e'/></svg>" />
+    <title>单户两层住宅 · Pascal Viewer</title>
+  </head>
+  <body>
+    <main class="app-shell">
+      <section id="viewer" aria-label="住宅三维展示"></section>
+      <header class="title-card">
+        <span class="eyebrow">PASCAL SCENE · READ ONLY</span>
+        <h1>单户两层住宅</h1>
+        <p id="scene-subtitle">正在载入场景…</p>
+      </header>
+      <aside class="control-panel" aria-label="展示控制">
+        <div class="control-section">
+          <span class="section-label">楼层</span>
+          <div class="button-row" id="level-buttons"></div>
+        </div>
+        <div class="control-section">
+          <span class="section-label">楼层模式</span>
+          <div class="button-row" id="level-mode-buttons">
+            <button type="button" data-level-mode="stacked">堆叠</button>
+            <button type="button" data-level-mode="exploded">爆炸</button>
+            <button type="button" data-level-mode="solo">单层</button>
+          </div>
+        </div>
+        <div class="control-section">
+          <span class="section-label">视角</span>
+          <div class="button-row">
+            <button type="button" id="view-3d">3D</button>
+            <button type="button" id="view-plan">平面图</button>
+            <button type="button" id="fit-scene">适配</button>
+            <button type="button" id="reset-camera">重置</button>
+          </div>
+        </div>
+        <div class="control-section toggles">
+          <label><input id="show-floors" type="checkbox" checked /> 楼板</label>
+          <label><input id="show-ceilings" type="checkbox" /> 天花板</label>
+          <label><input id="show-zones" type="checkbox" /> 房间区</label>
+          <label><input id="show-furniture" type="checkbox" checked /> 家具</label>
+          <label><input id="show-roof" type="checkbox" checked /> 屋顶</label>
+        </div>
+        <div class="read-only-note">只读展示 · 不连接 Pascal API · 不会保存或修改场景</div>
+      </aside>
+      <aside class="info-panel" aria-live="polite">
+        <div class="info-title">场景信息</div>
+        <dl id="scene-stats"><dt>状态</dt><dd>载入中…</dd></dl>
+      </aside>
+      <div id="loading" role="status" aria-live="polite">正在加载 3D 场景…</div>
+      <div id="error" role="alert" hidden></div>
+      <div class="hint">左键旋转 · 滚轮缩放 · 右键平移</div>
+    </main>
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>
