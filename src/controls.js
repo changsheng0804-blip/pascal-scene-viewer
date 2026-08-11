@@ -41,6 +41,9 @@ export class ViewerControls {
     }
   }
 
+  // Items and zones are children of their level group in graph-renderer,
+  // so they move with the level automatically. No additional offset here.
+
   fitScene() {
     const box = new THREE.Box3().setFromObject(this.scene)
     if (box.isEmpty()) return

@@ -192,11 +192,12 @@ async function main() {
     viewerControls.setMode('stacked')
     viewerControls.fitScene()
 
-    // Optional plan view entry (?view=plan): top-down orthographic-like camera.
+    // Optional plan view entry (?view=plan): near-top-down camera keeping
+    // standard up vector so OrbitControls stays consistent.
     const planView = new URLSearchParams(window.location.search).get('view') === 'plan'
     if (planView) {
       camera.position.set(0, 22, 0.01)
-      camera.up.set(0, 0, -1)
+      camera.up.set(0, 1, 0)
       camera.lookAt(0, 0, 0)
       controls.target.set(0, 0, 0)
       controls.update()
@@ -208,6 +209,8 @@ async function main() {
     }
 
     loadingEl.classList.add('hidden')
+    window.__viewerScene = scene
+    window.__viewerLevels = graphRenderer.levels
   } catch (err) {
     showError(`加载失败：${err.message}`)
   }
