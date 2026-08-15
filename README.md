@@ -1,3 +1,5 @@
+> **已迁移**：本演示已统一收纳到 [demos 演示合集](https://changsheng0804-blip.github.io/demos/)（新地址见下方 MIGRATED.md）。本仓库保留作备份。
+
 # Pascal Scene Viewer
 
 只读展示 `单户两层住宅-合理布局-v1`（Pascal 场景 `348aaad6e1f6`，80 节点）的静态 3D Viewer。无编辑、无自动保存、不连接 Pascal API。
